@@ -8,7 +8,7 @@ COUNT_BALLS = 10
 
 class Ball:
     def __init__(self):
-        self.r = randint(10, 30)
+        self.r = randint(20, 50)
         self.x = WIDTH/2
         self.y = HEIGHT/2
         self.dx, self.dy = randint(-5,5), randint(-5,5)
@@ -50,6 +50,8 @@ def canvas_click_handler(event):
         if hypot(ball.x - x, ball.y - y) < ball.r:
             ball.kill_ball(i)
         i += 1
+    if len(balls) == 0:
+        canvas.create_text(WIDTH/2, HEIGHT/2, text = "GAME OVER", font = "Ubuntu 24")
     
 
 def tick():
