@@ -1,5 +1,8 @@
-# Flying Balls
+# Flying Balls  -  Летающие шарики
 
-По шарикам можно щелкать мышкой. Они исчезают
-You can click on the Flying balls
+По шарикам можно щелкать мышкой.
+
+You can click on the Flying balls.
+
+Простая демо-программа на Питоне с использованием ООП.
 
