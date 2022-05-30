@@ -51,7 +51,7 @@ def canvas_click_handler(event):
             ball.kill_ball(i)
         i += 1
     if len(balls) == 0:
-        canvas.create_text(WIDTH/2, HEIGHT/2, text = "GAME OVER", font = "Ubuntu 24")
+        canvas.create_text(WIDTH/2, HEIGHT/2, text = "GAME OVER", font = "Ubuntu 36")
     
 
 def tick():
